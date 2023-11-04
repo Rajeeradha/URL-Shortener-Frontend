@@ -1,0 +1,42 @@
+.boxs{
+    max-width: 20rem;
+    min-height: 20rem;
+    }
+    
+    .long-url{
+        max-height: 110px;
+        overflow-y: auto;
+    }
+    .fixeds{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-image: linear-gradient(to top, #2f4d8c 0%, #58656b 100%);
+        background-size: cover;
+        padding: 20px;
+    
+    }
+    .size{
+        width: 1.5rem;
+    }
+    .logout{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 70px;
+        padding: 14px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .logout > img{
+        width: 100%;
+    }
+    .logout:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+    .message{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
